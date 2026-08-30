@@ -1,0 +1,74 @@
+body {
+  font-family: Arial;
+  background: #fff8e1;
+  margin: 0;
+  padding: 20px;
+}
+.travelhead {
+  background: #e65100;
+  color: white;
+  padding: 25px 30px;
+  margin-bottom: 30px;
+  border-right: 15px solid #ffd700;
+  text-align: right;
+}
+.travelhead h1 {
+  font-size: 32px;
+  margin: 0;
+}
+.travelhead p {
+  color: #ffcc80;
+  font-size: 16px;
+  margin: 5px 0 0 0;
+}
+.traveList {
+  display: flex;
+  gap: 25px;
+}
+.travelitem {
+  background: white;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+  border-radius: 20px;
+}
+.travelitem:hover {
+  transform: rotate(2deg);
+}
+.travelitem img {
+  width: 100%;
+  height: 140px;
+
+}
+
+.travelitem h3 {
+  color: #e65100;
+  font-size: 20px;
+  margin: 12px 0 5px 0;
+}
+.travelitem p {
+  color: #bf360c;
+  font-weight: bold;
+  font-size: 18px;
+}
+.travelitem button {
+  padding: 8px 25px;
+  background: #e65100;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.travelitem button:hover {
+  background: #ffd700;
+  color: #e65100;
+}
+.traveLine {
+  text-align: center;
+  color: #e65100;
+  padding: 20px;
+  margin-top: 30px;
+  border-top: 3px solid #ffd700;
+  font-size: 18px;
+}
